@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced Interactive Chatbot with Voice Commands</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="chat-container">
+        <div class="chat-header">
+            <h2>Chatbot Assistant</h2>
+            <button id="theme-toggle" class="theme-toggle">🌙</button>
+        </div>
+        <select id="color-picker" class="color-picker">
+            <option value="#007bff">Blue</option>
+            <option value="#28a745">Green</option>
+            <option value="#ffc107">Yellow</option>
+            <option value="#dc3545">Red</option>
+            <option value="#6f42c1">Purple</option>
+        </select>
+        <div id="chat-output" class="chat-output"></div>
+        <div id="typing-indicator" class="typing-indicator">Bot is typing...</div>
+        <div class="chat-input">
+            <input type="text" id="user-input" class="user-input" placeholder="Type a command...">
+            <button id="send-btn" class="send-btn">send<i class="fas fa-paper-plane"></i></button>
+            <button id="voice-btn" class="voice-btn">mic<i class="fas fa-microphone"></i></button>
+        </div>
+        <button id="clear-history-btn" class="clear-history-btn">Clear History</button>
+    </div>
+
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
